@@ -2,10 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500");
 * {
 	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+
+	/* box-sizing: border-box; */
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 header {
@@ -130,9 +132,8 @@ a {
 	display: flex;
 	align-items: center;
 	gap: 2rem;
-	
 }
-.hibtn{
+.hibtn {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -141,23 +142,22 @@ a {
 	padding-top: -3rem;
 	margin-top: -3rem;
 }
-.hibtn button{
+.hibtn button {
 	display: flex;
 	height: 5rem;
 	width: 12rem;
 	flex-direction: row;
 	border-radius: 10px;
-	border-color: .2px #555555;
+	border-color: 0.2px #555555;
 	background-color: #ffffff;
 	justify-content: space-around;
 	align-items: center;
 }
-.hibtn button img{
+.hibtn button img {
 	height: 60px;
 	border-radius: 5px;
 }
-.menu
-{
+.menu {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -166,3 +166,28 @@ a {
 	margin-top: 2rem;
 }
 
+.items img {
+	height: 100px;
+	width: 100px;
+	padding: 0.42rem;
+	border-radius: 100%;
+	background-color: #90BD95;
+}
+.menuitems {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	padding-top: 2rem;
+}
+.menuitems button {
+	border-radius: 25px;
+	height: 250px;
+	width: 250px;
+	background-color: white;
+	border-color:#555555;
+}
+.menuitems button p strong {
+	font-size: 25px;
+	text-decoration: solid;
+}
