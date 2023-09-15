@@ -191,3 +191,26 @@ a {
 	font-size: 25px;
 	text-decoration: solid;
 }
+.dishes{
+	padding-top: 3rem;
+	text-decoration: solid;
+}
+.dishes p{
+	font-size: 20px;
+}
+.dishes h1{
+	font-size: 45px;
+}
+.dm{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.dm button{
+	height: 300px;
+	width: 300px;
+	border-radius: 50px;
+}
+.dm button img{
+	height: 150px;
+}
