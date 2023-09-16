@@ -171,7 +171,7 @@ a {
 	width: 100px;
 	padding: 0.42rem;
 	border-radius: 100%;
-	background-color: #90BD95;
+	background-color: #90bd95;
 }
 .menuitems {
 	display: flex;
@@ -185,32 +185,88 @@ a {
 	height: 250px;
 	width: 250px;
 	background-color: white;
-	border-color:#555555;
+	border-color: #555555;
 }
 .menuitems button p strong {
 	font-size: 25px;
 	text-decoration: solid;
 }
-.dishes{
+.dishes {
 	padding-top: 3rem;
 	text-decoration: solid;
 }
-.dishes p{
+.dishes p {
 	font-size: 20px;
 }
-.dishes h1{
+.dishes h1 {
 	font-size: 45px;
 }
-.dm{
+.dm {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 }
-.dm button{
+.dm button {
 	height: 300px;
 	width: 300px;
 	border-radius: 50px;
 }
-.dm button img{
+.dm button img {
 	height: 150px;
+}
+.dishes button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.dish p {
+	color: #555555;
+	font-size: 15px;
+	margin-top: -2rem;
+}
+.price {
+	padding-left: 0rem;
+	padding-right: 5rem;
+}
+.dishes pre {
+	font-size: 18px;
+	padding-left: 1.5rem;
+	margin-top: -0.5rem;
+}
+.dish img {
+	padding-top: 1rem;
+}
+.chef {
+	padding-top: 5rem;
+	margin-top: 5rem;
+}
+.chef img {
+	float: left;
+	height: 35rem;
+	padding-left: 5rem;
+}
+.cheftxt {
+	float: right;
+	padding-right: 5rem;
+}
+.cheftxt p {
+	font-size: 20px;
+}
+.cheftxt h1 {
+	font-size: 50px;
+}
+.feedback {
+	display: flex;
+}
+.feedback img {
+	height: 35px;
+}
+
+.services{
+	padding-top: 5rem;
+	margin-top: 5rem;
+}
+.stxt{
+	float: left;
 }
