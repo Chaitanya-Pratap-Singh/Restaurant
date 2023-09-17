@@ -1,9 +1,6 @@
 /** @format */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500");
 * {
-	padding: 0;
-
-	/* box-sizing: border-box; */
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 	margin-left: 5px;
@@ -238,20 +235,29 @@ a {
 	padding-top: 1rem;
 }
 .chef {
-	padding-top: 5rem;
 	margin-top: 5rem;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	gap: 29rem;
 }
-.chef img {
-	float: left;
-	height: 35rem;
-	padding-left: 5rem;
+.chef .img_container {
+	height: 2rem;
+	width: 2rem;
+}
+.chef .img_container img {
+	height: 30rem;
 }
 .cheftxt {
 	float: right;
+	margin-top: 2rem;
 	padding-right: 5rem;
+	margin-bottom: 5rem;
 }
 .cheftxt p {
 	font-size: 20px;
+	color: gray;
+
 }
 .cheftxt h1 {
 	font-size: 50px;
@@ -279,4 +285,66 @@ a {
 
 #img3 {
 	left: 40px;
+}
+
+.service-text h1 {
+	font-size: 50px;
+}
+.service-text #content {
+	color: gray;
+	font-size: 20px;
+}
+.service-text button {
+	height: 3rem;
+	/* width: 7rem; */
+	color: #edffef;
+	padding: 9px 25px;
+	background-color: #5fe26c;
+	border: none;
+	text-align: center;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+.service-text {
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+	margin-right: 8rem;
+}
+.service-menu {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 41%;
+}
+
+.service-menu button {
+	border: solid 1px #555555;
+	height: 12rem;
+	width: 11rem;
+	margin-top: 1rem;
+	border-radius: 25px;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	padding-top: 2rem;
+}
+.service {
+	display: flex;
+	margin-top: 5rem;
+}
+.service-menu button img{
+	height: 40px;
+}
+.service-menu button p{
+	color: #90BD95;
+}
+.service-menu button h3{
+	color: #5FE26C;
 }
