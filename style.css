@@ -257,16 +257,26 @@ a {
 	font-size: 50px;
 }
 .feedback {
-	display: flex;
+	/* display: flex; */
+	height: 35px;
+	position: relative;
 }
 .feedback img {
-	height: 35px;
+	height: 100%;
+	width: auto;
+	position: absolute;
+	margin: 0;
+	padding: 0;
 }
 
-.services{
-	padding-top: 5rem;
-	margin-top: 5rem;
+#img1 {
+	left: 0;
 }
-.stxt{
-	float: left;
+
+#img2 {
+	left: 20px;
+}
+
+#img3 {
+	left: 40px;
 }
