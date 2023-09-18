@@ -262,13 +262,20 @@ a {
 .cheftxt h1 {
 	font-size: 50px;
 }
+.review{
+	margin-top: -1rem;
+}
+.feed {
+	display:flex ;
+	gap: 8rem;
+	float: left;
+}
 .feedback {
-	/* display: flex; */
 	height: 35px;
 	position: relative;
 }
 .feedback img {
-	height: 100%;
+	height: 150%;
 	width: auto;
 	position: absolute;
 	margin: 0;
@@ -280,11 +287,12 @@ a {
 }
 
 #img2 {
-	left: 20px;
+	left: 30px;
 }
 
 #img3 {
-	left: 40px;
+	left: 60px;
+	margin-right: 3rem;
 }
 
 .service-text h1 {
@@ -347,4 +355,99 @@ a {
 }
 .service-menu button h3{
 	color: #5FE26C;
+}
+.footer{
+	display: flex;
+	padding-top: 5rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.list1{
+	display: flex;
+	/* justify-content: center; */
+	align-items: start;
+	flex-direction: column;
+	padding-top: 2rem;
+}
+.list1>div>img{
+	height: 30px;
+}
+.list2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 2rem;
+}
+.list2>ul{
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+}
+.list2>ul>li{
+	color: #555555;
+	align-content: start;
+}
+.list2>ul>h4{
+	font-size: 20px;
+}
+.list3{
+	padding-top: 0;
+	margin-top: -1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 2rem;
+}
+.list3>ul{
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+}
+.list3>ul>li{
+	color: #555555;
+	align-content: start;
+}
+.list3>ul>h4{
+	font-size: 20px;
+}
+#selected{
+	background-color: #5FE26C;
+}
+.other{
+	background-color: #90BD95;
+}
+.footimg{
+	justify-content:center;
+	align-items: center;
+	display: flex;
+}
+.footimg>button{
+	height: 25px;
+	width: 25px;
+	border: none;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.footimg>button>img{
+	height: 10px;
+	width: auto;
+}
+.foot{
+	display: flex;
+	margin-top:  5rem;
+	flex-direction: row;
+	align-items: center;
+	gap: 5rem;
+	margin-left: 17rem;
+	margin-right: 5rem;
+}
+h1,h2,h3,h4{
+	font-weight: bold;
 }
