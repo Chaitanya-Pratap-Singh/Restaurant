@@ -34,7 +34,6 @@ a {
 	gap: 4rem;
 }
 .nav_link li {
-	/* display: inline-block; */
 	padding: 0, 20px;
 }
 .nav links li a {
@@ -257,16 +256,15 @@ a {
 .cheftxt p {
 	font-size: 20px;
 	color: gray;
-
 }
 .cheftxt h1 {
 	font-size: 50px;
 }
-.review{
+.review {
 	margin-top: -1rem;
 }
 .feed {
-	display:flex ;
+	display: flex;
 	gap: 8rem;
 	float: left;
 }
@@ -347,52 +345,52 @@ a {
 	display: flex;
 	margin-top: 5rem;
 }
-.service-menu button img{
+.service-menu button img {
 	height: 40px;
 }
-.service-menu button p{
-	color: #90BD95;
+.service-menu button p {
+	color: #90bd95;
 }
-.service-menu button h3{
-	color: #5FE26C;
+.service-menu button h3 {
+	color: #5fe26c;
 }
-.footer{
+.footer {
 	display: flex;
 	padding-top: 5rem;
 	justify-content: space-between;
 	align-items: center;
 }
-.list1{
+.list1 {
 	display: flex;
 	/* justify-content: center; */
 	align-items: start;
 	flex-direction: column;
 	padding-top: 2rem;
 }
-.list1>div>img{
+.list1 > div > img {
 	height: 30px;
 }
-.list2{
+.list2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	margin-left: 2rem;
 }
-.list2>ul{
+.list2 > ul {
 	list-style: none;
 	display: flex;
 	gap: 1rem;
 	flex-direction: column;
 }
-.list2>ul>li{
+.list2 > ul > li {
 	color: #555555;
 	align-content: start;
 }
-.list2>ul>h4{
+.list2 > ul > h4 {
 	font-size: 20px;
 }
-.list3{
+.list3 {
 	padding-top: 0;
 	margin-top: -1rem;
 	display: flex;
@@ -401,31 +399,31 @@ a {
 	flex-direction: column;
 	margin-left: 2rem;
 }
-.list3>ul{
+.list3 > ul {
 	list-style: none;
 	display: flex;
 	gap: 1rem;
 	flex-direction: column;
 }
-.list3>ul>li{
+.list3 > ul > li {
 	color: #555555;
 	align-content: start;
 }
-.list3>ul>h4{
+.list3 > ul > h4 {
 	font-size: 20px;
 }
-#selected{
-	background-color: #5FE26C;
+#selected {
+	background-color: #5fe26c;
 }
-.other{
-	background-color: #90BD95;
+.other {
+	background-color: #90bd95;
 }
-.footimg{
-	justify-content:center;
+.footimg {
+	justify-content: center;
 	align-items: center;
 	display: flex;
 }
-.footimg>button{
+.footimg > button {
 	height: 25px;
 	width: 25px;
 	border: none;
@@ -433,21 +431,64 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
-.footimg>button>img{
+.footimg > button > img {
 	height: 10px;
 	width: auto;
 }
-.foot{
+.foot {
 	display: flex;
-	margin-top:  5rem;
+	margin-top: 5rem;
 	flex-direction: row;
 	align-items: center;
 	gap: 5rem;
 	margin-left: 17rem;
 	margin-right: 5rem;
 }
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
 	font-weight: bold;
+}
+
+@media (width<=768px) {
+	.hero,
+	.chef,
+	.menuitems {
+		flex-wrap: wrap;
+	}
+	.navbar {
+		display: none;
+	}
+	h1 {
+		font-size: 50px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	.items {
+		margin-bottom: 1rem;
+	}
+	.dm {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.dish {
+		margin-bottom: 1rem;
+	}
+	.chef {
+		flex-direction: column-reverse;
+		gap: 0rem;
+		margin-bottom: 30rem;
+	}
+	.service {
+		flex-wrap: wrap;
+	}
+	.service-menu {
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin: 1rem;
+	}
 }
